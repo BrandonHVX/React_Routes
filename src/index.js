@@ -20,8 +20,8 @@ class Home extends Component{
          <body><div>
           <nav>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/guilty">Guilty</Link></li>
-          <li><Link to="/happy">Happy</Link></li>
+            <li><Link to="/happy">Happy</Link></li>
+         <li><Link to="/guilty">Guilty</Link></li>
           <li><Link to="/sleepy">Sleepy</Link></li>
           </nav>
           <Route exact path="/" component={ null } />
